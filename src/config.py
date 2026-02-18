@@ -12,12 +12,11 @@ COIN_PM      = {"BTC": "btc",     "ETH": "eth",      "SOL": "sol",    "XRP": "xr
 COIN_PM_LONG = {"BTC": "bitcoin", "ETH": "ethereum", "SOL": "solana", "XRP": "xrp"}
 
 # ── Timeframes ──────────────────────────────────────────────────
-# Available timeframes per coin (5m only for BTC)
 COIN_TIMEFRAMES = {
     "BTC": ["5m", "15m", "1h", "4h", "daily"],
-    "ETH": ["15m", "1h", "4h", "daily"],
-    "SOL": ["15m", "1h", "4h", "daily"],
-    "XRP": ["15m", "1h", "4h", "daily"],
+    "ETH": ["5m", "15m", "1h", "4h", "daily"],
+    "SOL": ["5m", "15m", "1h", "4h", "daily"],
+    "XRP": ["5m", "15m", "1h", "4h", "daily"],
 }
 
 # Binance kline interval used for TA candles
